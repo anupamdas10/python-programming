@@ -1,5 +1,5 @@
 class compass:
-    def func(self,s):
+    def funcr(self,s):
         i=0
         j=len(s)
         o=[]
@@ -10,5 +10,5 @@ class compass:
         o.append(s[i])
         return"".join(o)
 y=compass()
-r=y.func("wwwaabccadd")
+r=y.funcr("wwwaabccadd")
 print(r)            
