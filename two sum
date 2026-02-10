@@ -1,0 +1,10 @@
+nums=[2,11,6,7,11,15]
+n=len(nums)
+target=9
+hash_map={}
+for i in range(0,n):
+    remaining=target-nums[i]
+    if remaining in hash_map:
+        print(hash_map[remaining],i)
+    else:
+        hash_map[nums[i]]=i  

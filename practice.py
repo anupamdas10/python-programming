@@ -1,13 +1,10 @@
-class stack:
-    def func(self,s):
-        stack=[]
-        for i in s:
-            if len(stack) > 0 and stack[-1]==i:
-                stack.pop()
-            else:
-                stack.append(i)
-        return ''.join(stack)
+n = 123
+rev = 0
+while n > 0:
+    digit = n % 10          # get last digit
+    rev = rev * 10 + digit  # build reversed number
+    n= n // 10   
+        # remove last digit
+print(rev)                  # 21
 
-y=stack()
-r=y.func("abbacd")
-print(r)               
+            
