@@ -10,5 +10,5 @@ class Solution:
         return -1
     
 y=Solution()
-r=y.pivotIndex([1,7,3,6,5]) 
+r=y.pivotIndex([1,7,3,6,5,6]) 
 print(r)   
