@@ -9,7 +9,7 @@ class Solution:
             else:
                 merger.append(prev)
                 prev = i
-        merger.append(prev)
+        merger.append(i)
         return merger
     
 y=Solution()    
