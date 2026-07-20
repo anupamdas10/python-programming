@@ -12,8 +12,8 @@ class Solution:
          px=(start+end) //2
          py=((x+y+1)//2 -px)
 
-         maxleftx=float("inf") if px==0 else nums1[px-1]
-         maxlefty=float("inf") if py==0 else nums2[py-1]
+         maxleftx=float("-inf") if px==0 else nums1[px-1]
+         maxlefty=float("-inf") if py==0 else nums2[py-1]
          minrightx=float("inf") if px==x else nums1[px]
          minrighty=float("inf") if py==y else nums2[py]
 
