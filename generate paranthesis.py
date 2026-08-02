@@ -22,5 +22,5 @@ class Solution:
         return result
 
 y=Solution()
-r=y.generateParenthesis(3)
+r=y.generateParenthesis(6)
 print(r)
