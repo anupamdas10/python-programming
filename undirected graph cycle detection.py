@@ -23,7 +23,7 @@ class Solution:
                         visited[adjnode]=1
                     elif parent!=adjnode:
                         return True
-            return False
+        return False
 
 y=Solution()
 r=y.incycle(4,[[0, 1], [1, 2], [2, 3]])        
